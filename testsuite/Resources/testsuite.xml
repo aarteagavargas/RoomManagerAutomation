@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Test Suite Resources Feature" parallel="none">
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+      <listener class-name="org.roommanager.utils.Listener"></listener>
+   </listeners>
+   <test name="Test Cases" >
+    <classes>
+      <class name="org.roommanager.test.admin.CreateResourceWithoutDisplayName" />
+      <class name="org.roommanager.test.admin.CreateResourceWithInvalidInfo" />
+      <class name="org.roommanager.test.admin.CreateFolderResource" />
+      <class name="org.roommanager.test.admin.RemoveResource" />
+      <class name="org.roommanager.test.admin.UpdateIconResource" />
+      <class name="org.roommanager.test.admin.CreateDuplicateResource" />
+    </classes>
+    </test>
+</suite>    
+
+
+   
+
